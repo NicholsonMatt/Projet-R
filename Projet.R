@@ -1,3 +1,5 @@
+rm(list=objects());graphics.off()
+
 music = read.table("Music_2026.txt", header=TRUE, sep=";", dec=".")
 p = ncol(music)
 n = nrow(music)
